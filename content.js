@@ -58,7 +58,7 @@ function injectButton() {
 
       const emailContent = getEmailContent();
       const response = await fetch(
-        "https://auto-email-replier-production.up.railway.app/api/email/generate",
+        "http://localhost:8080/api/email/generate",
         {
           method: "POST",
           headers: {
